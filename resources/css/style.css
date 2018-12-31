@@ -1,0 +1,449 @@
+html{
+	font-size: 12px;
+	height:auto; 
+}
+body{
+	margin:0;
+	/*background-color: #00AAFF;*/
+	height:auto;
+	background-color:#52DAE0;
+	width:100%;
+	
+}
+
+#aboutuspage{
+	margin:0;
+	/*background-color: #00AAFF;*/
+	background: radial-gradient(#52DAE0,#0F6468);
+	height:auto;
+	
+
+}
+#intheparkpage{
+	margin-top: 30em;
+	/*background-color: #00AAFF;*/
+	background: radial-gradient(#52DAE0,#0F6468);
+	height:auto;
+	
+	
+	
+}
+
+.contactpage{
+margin-top: 25em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contacttext{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 4em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#24130C;
+	text-align: center;
+	
+}
+
+
+header{
+	position:fixed;
+	top:0;
+	margin:auto;
+	display:flex;
+	align-items: flex-end;
+	
+ 	height:18em;
+	
+	/*background-image: url("../images/back.png");*/
+	background-color: #52DAE0;
+	justify-content: space-around;
+	width:100%;
+	position: fixed;
+	border-bottom: 4em solid yellow;
+	border-image:url(../images/bg.png) 50 round;
+
+}
+#main{
+	margin-top:28em;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+	
+	
+
+}
+p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.5em;
+	text-align: center;
+	color:#24130c;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #24130c;
+}
+.link{
+	height: 20%;
+	width:auto;	
+}
+.link:hover{
+	border-bottom: 4px solid #0C0654;
+}
+.logo{
+	width:auto;
+	height:100%;
+}
+.bouncehouses{
+	margin-top:25em;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #52DAE0;
+	width:100%;
+	/*background-image: url("../images/grass.png")*/
+}
+.xl{
+display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #52DAE0;
+	width:100%;
+	/*background-image: url("../images/grass.png");*/	
+	/*border-top: 3px solid yellow;*/
+}
+.seperating{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 4em;
+	color:#F5F507;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#24130C;
+	text-align: center;
+	/*border: 2px solid white;*/
+}
+.house {
+	height: 25em;
+	width:25em;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.house img{
+	height:70%;
+	width:auto;
+	margin:1.2em;
+}
+.house img:hover{
+	height:80%;
+	width:auto;
+}
+.house h3{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#24130C;
+	text-align: center;
+}
+.inthepark{
+	margin-top: 5em;
+	margin:auto;
+	display:flex;
+	/*border:1px solid white;*/
+	height:auto;
+	justify-content: center;
+	align-content: center;
+	width:auto;
+	/*background-image: url("../images/purple.png")*/
+	/*background-color: #A452E0;*/
+	background-color: #52DAE0;
+	border-top: 4em solid yellow;
+	border-image:url(../images/bg.png) 50 round;
+
+	text-align: center;
+	
+}
+.park a{
+	margin:0, auto;
+	margin-left: 3em;
+}
+.parklink{
+margin-left: 3em;
+}
+.slides{
+	margin-top: 5em;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #52DAE0;
+	width:100%;
+	/*background-image: url("../images/poolwater.png");*/
+	border-top: 2 solid yellow;
+	border-image:url(../images/bg.png) 50 round;
+
+}
+
+.slide{
+	height: 25em;
+	width:25em;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.slide img{
+	height:auto;
+	width:70%;
+	margin:.8em;
+}
+
+.slide img:hover{
+height:auto;
+	width:90%;	
+}
+.slide h3{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130C;
+	text-align: center;
+}
+.block{
+	width:100%;
+}
+
+
+.concessions{
+	margin-top:5em;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #52DAE0;
+	width:100%;
+	/*background-image: url("../images/popcorn.png");*/
+	border-top: 4em solid yellow;
+	border-image:url(../images/bg.png) 50 round;
+
+}
+
+.concession{
+	height:30em;
+	width:25em;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.concession img{
+	height:auto;
+	width:120%;
+	
+	
+}
+
+.concession img:hover{
+height:auto;
+	width:140%;	
+}
+.concession h3{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130c;
+	text-align: center;
+}
+
+
+
+.combos{
+	margin-top: 5em;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	background-color: #52DAE0;
+	width:100%;
+	/*background-image: url("../images/tropicalsand.png");*/
+	border-top: 4em solid yellow;
+	border-image:url(../images/bg.png) 50 round;
+
+}
+
+.combo{
+	height: 25em;
+	width:25em;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.combo img{
+	height:auto;
+	width:70%;
+	margin:.8em;
+}
+
+.combo img:hover{
+height:auto;
+	width:90%;	
+}
+.combo h3{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130c;
+	text-align: center;
+}
+
+
+.joustjump{
+	margin-top: 5em;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	/*background-color: #AA00FF;*/
+	background-color: #52DAE0;
+	width:100%;
+	/*background-image: url("../images/orange.png");*/
+	/*background-color:#FF4A27;*/
+	border-top: 4em solid yellow;
+	border-image:url(../images/bg.png) 50 round;
+
+}
+
+.option{
+	height: 25em;
+	width:25em;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.option img{
+	height:auto;
+	width:70%;
+	margin:.8em;
+}
+
+.option img:hover{
+height:auto;
+	width:90%;	
+}
+.option h3{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130c;
+	text-align: center;
+}
+.back{
+	width:60%;
+	margin:auto;
+}
+.back img{
+	margin-left:35%;
+}
+footer{
+	height: 5em;
+	/*background-color: yellow;*/
+	margin:0;
+	bottom-margin:0;
+	background-image:url("../images/bg.png");
+}
+.product{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30em;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.producttitle{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 4em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130c;
+	text-align: center;
+}
+.productpicture{
+	width:50%;
+	height:70%;
+	align-items: center;
+	margin:auto;
+}
+.productprice{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 3em;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130c;
+	text-align: center;
+	
+}
+.productdescription{
+	font-family: Arial;
+	color:yellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #24130c;
+	font-size: 3em;
+}
+/*-------------------------Mobile Styling-------------------------*/
+@media only screen and (max-width: 800px){
+		body {
+		width:100%
+	  }
+	.header{
+		height:auto;
+		width:100%;
+		
+	}
+	.logo{
+		width:40%;
+		height:auto;
+	}
+	.link{
+		width:105%;
+	}
+	.park{
+		width:95%;
+		padding-right: 2em;
+	}
+	.seperating{
+		font-size:3em;
+	}
+	.contacttext{
+		font-size: 2em;
+	}
+	.back{
+		width:105%;
+		
+		
+		
+	}
+	.productpicture{
+		width:110%;
+	}
+}
